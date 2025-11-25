@@ -1,0 +1,8 @@
+textarea.linkedin-note-filled {
+  border: 2px solid #0a66c2 !important;
+  background-color: #f3f9ff !important;
+}
+
+textarea.linkedin-note-filled:focus {
+  outline: 2px solid #0a66c2 !important;
+}

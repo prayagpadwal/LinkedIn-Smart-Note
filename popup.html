@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LinkedIn Note Generator</h1>
+    <div class="logo-wrap">
+      <img src="image.png" alt="logo" class="logo">
+    </div>
+    <div class="section">
+      <label for="noteTemplate">Note Template:</label>
+      <textarea id="noteTemplate" rows="4" placeholder="Hi {name}, I'd love to connect and learn more about your work in {field}!"></textarea>
+      <div class="hint">Use {name} and {field} as placeholders</div>
+    </div>
+    <div class="section">
+      <label>
+        <input type="checkbox" id="autoFill">
+        Auto-fill notes when clicking "Add a note"
+      </label>
+    </div>
+    <button id="saveBtn">Save Settings</button>
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
